@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: inter;
+    color: #ffffff;
+}
+button:hover, button:focus, button:active {
+    color: #EBF5FF;
+    background-color: #010244;
+    cursor: pointer; 
+}   
+.section-one{
+    height: 100vh;
+    background-color: #222831;
+}
+.section-one{
+    background-image: url(../asset/bgimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-one{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00ADB5;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 22px;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    margin-right: 60px;
+}
+.first-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 29px;
+}
+.first-buttons{
+    margin-top: 30px;
+    margin-left: 39px;
+}
+.button-two{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00ADB5;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.button-three{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00ADB5;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.section-two{
+    height: 100vh;
+    background-color: #393E46;
+    display: flex;
+}
+.second-heading{
+    font-size: 50px;
+    line-height: 60.77px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 39px;
+    margin-top: 35px;
+}
+.first-para{
+    font-size: 30px;
+    font-weight: 700;
+    font-weight: bold;
+    margin-left: 39px;
+    margin-top: 20px;
+}
+.button-four{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00ADB5;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 61px;
+    margin-top: 150px;
+}
+.pics{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+    float: right;
+    margin-left: 400px; 
+}
+.img-three{
+    width: 350px;
+    height: 350px;
+}
+.img-one{
+    width: 200px;
+    height: 200px;
+}
+.img-two{
+    width: 200px;
+    height: 200px;  
+}
+.section-three{
+    height: 120vh;
+}
+.section-three{
+    background-image: url(../asset/Rectangle4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.third-para{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 29px;
+}
+.section-four{
+    background-color: #222831;
+    height: 180vh;
+}
+.flex-boxes-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.center-images{
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexbox-one{
+    width: 220px;
+    height: 350px;
+}
+.flexbox-two{
+    width: 220px;
+    height: 350px;
+}
+.flexbox-three{
+    width: 220px;
+    height: 350px;
+}
+.flexbox-four{
+    width: 220px;
+    height: 350px;
+}
+.flexbox-five{
+    width: 220px;
+    height: 350px;
+}
+.fourth-heading{
+    font-size: 55px;
+    text-align: center;
+    line-height: 90px;
+}
+hr{
+    width: 80%;
+    border: 5px solid #FFFFFF;
+    margin-left: 145px;
+    margin-bottom: 20px;
+}
+.fourth-heading{
+    /* width: 100%; */
+    height: 100px;
+}
+.flexboxes-two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-top: 70px;
+}
+.flex-one{
+    width: 220px;
+    height: 350px;
+}
+.flex-two{
+    width: 220px;
+    height: 350px;
+}
+.contact{
+    font-size: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+}
+.section-five{
+    width: 100%;
+    height: 80vh;
+    background-color: #393E46;
+}
+.fifth-heading{
+    font-size: 50px;
+    padding: 40px;
+}
+.fifth-para{
+    font-size: 30px;
+}
+.fifth-link{
+    width: 423px;
+    height: 61px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 29px;
+}
+.contacts{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+}
+.section-six{
+    width: 100%;
+    height: 60vh;
+    background-color: #222831;
+}
+.section-six{
+    background-image: url(../asset/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-left{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.footer-right{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.sixth-para-left{
+    margin-left: 29px;
+    padding-top: 10px;
+    font-size: 22px;
+    line-height: 25px;
+}
+.sixth-heading-left{
+    font-size: 50px;
+    padding: 29px;
+}
+.sixth-para-right{
+    margin-right: 29px;
+    padding-top: 10px;
+    font-size: 25px;
+    line-height: 35px;
+}
+.sixth-heading-right{
+    font-size: 50px;
+    padding: 29px;
+}
+@media (max-width: 412px){
+    .header{
+        background-color: #222831;
+        height: 100px;
+    }
+    .section-one{
+        background-color: #222831;
+    }
+    .button-one{
+        display: none;
+    }
+    .logo{
+        width: 71px;
+        height: 71px;
+        margin-left: 29px;
+    }
+    .first-sec{
+        background-color: #222831;
+        height: 100vh;
+    }
+    
+   .first-heading{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+   .two-heading{
+        font-size: 35px;
+   }
+    .first-buttons{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .button-two{
+        width: 230px;
+        height: 40px;
+        font-size: 30px;
+        margin: 20px;
+    }
+    .button-three{
+        width: 140px;
+        height: 40px;
+        font-size: 30px;
+    }
+    .section-two{
+        height: 100vh;
+    }
+    .second-heading{
+        font-size: 50px
+    }
+    .first-para{
+        font-size: 25px
+    }
+    .pics{
+        width: 412px;
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        margin-left: 0;
+    }
+    .img-one{
+        width: 150px;
+        height: 150px;
+    }
+    .img-two{
+        width: 150px;
+        height: 150px;
+    }
+    .img-three{
+        display: none;
+    }
+    .button-four{
+        width: 172px;
+        height: 48px;
+        margin-top: 250px;
+    }
+    .center-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .box-one{
+        height: 400px;
+        width: 220px;
+    }
+    .box-two{
+        height: 400px;
+        width: 220px;
+    }
+    .third-para{
+        font-size: 30px;
+        color: #FFFFFF;
+        margin-left: 29px;
+    }
+    .flexbox-one{
+        height: 400px;
+        width: 200px;
+        margin-top: 40px;
+    }
+    .flexbox-two{
+        height: 400px;
+        width: 200px;
+    }
+    .flexbox-three{
+        height: 400px;
+        width: 200px;
+    }
+    .flexbox-four{
+        height: 400px;
+        width: 200px;
+    }
+    .flexbox-five{
+        height: 400px;
+        width: 200px;
+    }
+    .section-four{
+        height: 360vh;
+    }
+    hr{
+        display: none;
+    }
+    .fourth-heading{
+        font-size: 55px;
+        text-align: center;
+        line-height: 150px;
+    }
+    .flexboxes-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        font-size: 55px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .fifth-heading{
+        font-size: 40px;
+        padding: 40px;
+    }
+    .fifth-para{
+        font-size: 25px;
+    }
+    .fifth-link{
+       display: none;
+    }
+    .section-five{
+        width: 100%;
+        height: 30vh;
+        background-color: #393E46;
+    }
+    .section-six{
+        background-image: url(#);
+        background-repeat: no-repeat;
+        background-position: center;
+        /* display: none; */
+    }
+    .footer-left{
+        width: 50%;
+        float: left;
+        text-align: left;
+    }
+    .footer-right{
+        display: none;
+    }
+}
